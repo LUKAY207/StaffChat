@@ -6,14 +6,11 @@ use pocketmine\scheduler\AsyncTask;
 
 class SendAsyncTask extends AsyncTask {
 
-    protected string $username;
-    protected string $message;
-    protected string $url;
-
-    public function __construct(string $username, string $message, string $url) {
-        $this->username = $username;
-        $this->message = $message;
-        $this->url = $url;
+    public function __construct(
+        protected string $username,
+        protected string $message,
+        protected string $url
+    ) {
     }
 
     public function onRun(): void {

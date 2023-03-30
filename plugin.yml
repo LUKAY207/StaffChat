@@ -1,6 +1,6 @@
 name: UltraStaffChat
 main: LUKAY\StaffChat\StaffChat
-api: 4.0.0
+api: 5.0.0
 version: 1.0.2
 author: LUKAY
 permissions:
