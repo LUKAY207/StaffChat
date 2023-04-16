@@ -39,10 +39,7 @@ class StaffChat extends PluginBase {
     }
 
     public function isStaffMember(Player $player): bool {
-        if (!array_key_exists($player->getName(), $this->onlineStaffMembers)) {
-            return false;
-        }
-        return true;
+        return array_key_exists($player->getName(), $this->onlineStaffMembers);
     }
 
     public function addOnlineStaffMember(Player $player): void {
