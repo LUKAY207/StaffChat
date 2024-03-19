@@ -1,7 +1,7 @@
 name: UltraStaffChat
 main: LUKAY\StaffChat\StaffChat
 api: 5.0.0
-version: 1.0.2
+version: 1.0.3
 author: LUKAY
 permissions:
   ultrastaffchat.bypass:
